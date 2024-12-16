@@ -3,6 +3,9 @@
 
  # Useage
 
+```
+composer require jemer/faker
+```
 
  Including Fake data into your project is easy. Assume we are creating a new User and Blog Post
 
