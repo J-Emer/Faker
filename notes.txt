@@ -13,6 +13,7 @@ Todo:
     [x] Us Address
     [x] Us Phone Number
     [x] Paragraphs
+    [x] Passwords
 
 
 Future features: 

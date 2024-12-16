@@ -225,6 +225,77 @@ class Factory
 
         return $str;
     }
+    public static function Age_Adult() : string
+    {
+        return self::RandomBetween(18, 99);
+    }
+    public static function Age_Child() : string
+    {
+        return self::RandomBetween(1, 17);
+    }
+
+    public static function Password() : string
+    {
+        $index = self::RandomeFromArray(Lists::$Passwords);
+        return Lists::$Passwords[$index];
+    }
+    public static function Passwords($count) : array
+    {
+        $cache = [];
+        
+        for ($i=0; $i < $count; $i++) { 
+            array_push($cache, self::Password());
+        }
+
+        return $cache;
+    }
+
+    /**
+     * Blog, Book, Article type title
+     */
+    public static function Title() : string
+    {
+        $index = self::RandomeFromArray(Lists::$Titles);
+        return Lists::$Titles[$index];
+    }
+
+    /**
+     * Blogs, Books, Articles type titles
+     */
+    public static function Titles($count) : array
+    {
+        $cache = [];
+        
+        for ($i=0; $i < $count; $i++) { 
+            array_push($cache, self::Title());
+        }
+
+        return $cache;
+    }
+
+    public static function Month() : string
+    {
+        $index = self::RandomeFromArray(Lists::$Months);
+        return Lists::$Months[$index];
+    }
+    public static function Months($count) : array
+    {
+        $cache = [];
+        
+        for ($i=0; $i < $count; $i++) { 
+            array_push($cache, self::Month());
+        }
+
+        return $cache;
+    }
+
+    public static function Date() : string
+    {
+        return self::RandomBetween(1, 30) . " " . self::Month() . " " . self::RandomBetween(2000, 2024);
+    }
+
+
+
 
 
 

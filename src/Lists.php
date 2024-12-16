@@ -556,6 +556,71 @@ static $StreetNames = [
 
     static $Paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non enim lectus. Integer sagittis, odio eu malesuada auctor, lorem mi ultricies sapien, et vehicula nulla tortor et felis. Ut auctor risus et neque vehicula, vitae tempor sem fermentum. Fusce nec felis nunc. Nunc at nisi felis. Nam eget felis a purus lacinia scelerisque. Aenean varius lectus vel felis auctor, ac gravida enim tincidunt. Sed placerat, tortor vel ultricies sollicitudin, nulla sapien venenatis tortor, eget fringilla ante risus id metus. Fusce malesuada, nunc sed eleifend lobortis, erat arcu maximus ante, ac elementum turpis nisi at eros. Mauris id bibendum arcu, sit amet suscipit sapien. Etiam nec augue at ante tempor lacinia. Sed tempor eros in mi dictum, sit amet finibus tortor sollicitudin. Ut ut nunc sem. Vivamus congue dolor vitae eros lacinia, vel facilisis risus vehicula. In euismod consequat erat. Donec laoreet diam sit amet tortor volutpat, sed dignissim nulla volutpat. Nulla varius orci eget nisl scelerisque, nec auctor orci rutrum. Sed ultricies sem vitae orci rutrum ultricies. Nunc non felis dui. Nullam euismod vitae mauris nec pretium. Cras et elit neque. Nam gravida, odio id placerat feugiat, augue justo pretium eros, at luctus justo urna sed erat. Integer vitae magna et nunc finibus sollicitudin. Suspendisse vehicula felis vitae dui varius, eget bibendum felis posuere. Etiam sit amet maximus libero, a tempor tortor. Maecenas viverra consectetur felis, nec dictum neque auctor nec. Nulla posuere quam ut ex varius, vel congue nulla mollis. Duis aliquet tempor felis ac lacinia. Etiam malesuada lectus id leo hendrerit, sit amet lacinia mi dictum. "; 
 
+                        
+    static $Passwords = [
+                        "XyZ!9vT@2",  
+                        "qWErT123$",  
+                        "pAsSw0rd!8",  
+                        "AbCdEfG$7",  
+                        "ZyX!4567",  
+                        "tY!uP#89",  
+                        "1M9pWgD",  
+                        "jK#6LmVq",  
+                        "4wErT!123",  
+                        "QzX@7sT8",  
+                        ];
+
+
+    static $Titles = [
+                        "10 Tips for Mastering Time Management",  
+                        "How to Stay Motivated During Tough Times",  
+                        "5 Easy Recipes for Busy Weeknights",  
+                        "Exploring the Best Travel Destinations of 2024",  
+                        "Top 7 Fitness Trends to Watch This Year",  
+                        "The Ultimate Guide to Starting Your Own Business",  
+                        "How to Build a Successful Personal Brand",  
+                        "Why Mental Health is Crucial in the Workplace",  
+                        "How to Plan the Perfect Road Trip",  
+                        "Simple Habits for a Healthier Lifestyle",  
+                        "How to Make Your Home More Eco-Friendly",  
+                        "Breaking Down the Basics of Cryptocurrency",  
+                        "5 Essential Skills Every Entrepreneur Needs",  
+                        "How to Maximize Your Productivity in 2024",  
+                        "The Benefits of Practicing Mindfulness Daily",  
+                        "How to Decorate Your Home on a Budget",  
+                        "Essential Tips for First-Time Homebuyers",  
+                        "Top Books You Should Read This Year",  
+                        "How to Overcome Self-Doubt and Build Confidence",  
+                        "5 DIY Projects to Improve Your Living Space",  
+                        "How to Balance Work and Family Life",  
+                        "Understanding the Basics of Digital Marketing",  
+                        "How to Create a Powerful Resume That Gets Noticed",  
+                        "7 Ways to Manage Stress Effectively",  
+                        "Why You Should Start Meditating Today",  
+                        "How to Create Meaningful Connections on Social Media",  
+                        "Planning the Perfect Weekend Getaway",  
+                        "How to Manage Your Finances Like a Pro",  
+                        "Simple Tips for a More Sustainable Lifestyle",  
+                        "How to Find Your Passion and Pursue It"
+                        ];
+
+
+    static $Months = [
+        "January",
+        "Feburary",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "Auguse",
+        "September",
+        "Octover",
+        "November",
+        "December",
+    ];
+
+
 
 }
 ?>
